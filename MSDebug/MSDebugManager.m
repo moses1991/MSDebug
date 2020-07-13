@@ -210,7 +210,7 @@ static MSDebugManager * _instace;
 /// 将调试按钮添加到window上
 - (void)showDebugButtonOnWindow:(UIWindow *)window {}
 /// 通过标题获取当前选中的选项
-- (NSString *)getCurrentSelectedWithTitle:(NSString *)title {}
+- (NSString *)getCurrentSelectedWithTitle:(NSString *)title {return @"";}
 
 @end
 

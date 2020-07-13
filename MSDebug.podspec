@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.authors      = {'moses' => 'moses89757@gmail.com'}
     s.platform     = :ios, '9.0'
     s.source       = {:git => 'https://github.com/moses1991/MSDebug.git', :tag => s.version}
-    s.source_files = 'MSDebug/**/*.{h,m}'
+    s.source_files = 'MSDebug'
     s.resource     = 'MSDeubg/MSDebug.bundle'
     s.requires_arc = true
     s.dependency 'FMDB'
