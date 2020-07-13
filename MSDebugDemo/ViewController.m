@@ -19,5 +19,15 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"我来了😁\n我来了😁\n我来了😁\n我来了😁");
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    NSLog(@"我走了😁\n我走了😁\n我走了😁\n我走了😁");
+}
 
 @end

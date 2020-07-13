@@ -13,6 +13,17 @@
 		04ED1BD624AB51BA0068284D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED1BD524AB51BA0068284D /* Assets.xcassets */; };
 		04ED1BD924AB51BA0068284D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED1BD724AB51BA0068284D /* LaunchScreen.storyboard */; };
 		04ED1BDC24AB51BA0068284D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BDB24AB51BA0068284D /* main.m */; };
+		04ED1BE524AB57460068284D /* MSDebugHook.c in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BE424AB57460068284D /* MSDebugHook.c */; };
+		04ED1BE824AC66F50068284D /* MSDebugLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BE724AC66F40068284D /* MSDebugLogViewController.m */; };
+		04ED1BEC24AF1BB20068284D /* MSDebugDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BEB24AF1BB20068284D /* MSDebugDatePickerView.m */; };
+		04ED1BEF24AF3C2C0068284D /* MSDebugSandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BEE24AF3C2C0068284D /* MSDebugSandboxViewController.m */; };
+		04ED1BF424AF48290068284D /* MSDebug.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04ED1BF324AF48290068284D /* MSDebug.bundle */; };
+		04ED1BF724B2C3A30068284D /* MSDebugAuthorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BF624B2C3A30068284D /* MSDebugAuthorityViewController.m */; };
+		04ED1BFD24B314A70068284D /* MSDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BFC24B314A70068284D /* MSDebugView.m */; };
+		04ED1C0024B319F00068284D /* MSDebugButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1BFF24B319F00068284D /* MSDebugButton.m */; };
+		04ED1C0624B31F950068284D /* MSDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED1C0424B31F950068284D /* MSDebugManager.m */; };
+		04F576A624B6FC1A00CCF98A /* TestUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F576A524B6FC1A00CCF98A /* TestUserModel.m */; };
+		05422A208EEA6B8151DD433B /* libPods-MSDebugDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5962FACD02C275B742A5C6 /* libPods-MSDebugDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,28 @@
 		04ED1BD824AB51BA0068284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04ED1BDA24AB51BA0068284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04ED1BDB24AB51BA0068284D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04ED1BE324AB57460068284D /* MSDebugHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugHook.h; sourceTree = "<group>"; };
+		04ED1BE424AB57460068284D /* MSDebugHook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MSDebugHook.c; sourceTree = "<group>"; };
+		04ED1BE624AC66F40068284D /* MSDebugLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugLogViewController.h; sourceTree = "<group>"; };
+		04ED1BE724AC66F40068284D /* MSDebugLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDebugLogViewController.m; sourceTree = "<group>"; };
+		04ED1BEA24AF1BB20068284D /* MSDebugDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugDatePickerView.h; sourceTree = "<group>"; };
+		04ED1BEB24AF1BB20068284D /* MSDebugDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDebugDatePickerView.m; sourceTree = "<group>"; };
+		04ED1BED24AF3C2C0068284D /* MSDebugSandboxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugSandboxViewController.h; sourceTree = "<group>"; };
+		04ED1BEE24AF3C2C0068284D /* MSDebugSandboxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDebugSandboxViewController.m; sourceTree = "<group>"; };
+		04ED1BF324AF48290068284D /* MSDebug.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSDebug.bundle; sourceTree = "<group>"; };
+		04ED1BF524B2C3A30068284D /* MSDebugAuthorityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugAuthorityViewController.h; sourceTree = "<group>"; };
+		04ED1BF624B2C3A30068284D /* MSDebugAuthorityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDebugAuthorityViewController.m; sourceTree = "<group>"; };
+		04ED1BFB24B314A70068284D /* MSDebugView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugView.h; sourceTree = "<group>"; };
+		04ED1BFC24B314A70068284D /* MSDebugView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDebugView.m; sourceTree = "<group>"; };
+		04ED1BFE24B319F00068284D /* MSDebugButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugButton.h; sourceTree = "<group>"; };
+		04ED1BFF24B319F00068284D /* MSDebugButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDebugButton.m; sourceTree = "<group>"; };
+		04ED1C0424B31F950068284D /* MSDebugManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDebugManager.m; sourceTree = "<group>"; };
+		04ED1C0524B31F950068284D /* MSDebugManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDebugManager.h; sourceTree = "<group>"; };
+		04F576A424B6FC1A00CCF98A /* TestUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUserModel.h; sourceTree = "<group>"; };
+		04F576A524B6FC1A00CCF98A /* TestUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUserModel.m; sourceTree = "<group>"; };
+		5D5962FACD02C275B742A5C6 /* libPods-MSDebugDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSDebugDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891EBB8F55EE688D22C2561 /* Pods-MSDebugDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSDebugDemo.debug.xcconfig"; path = "Target Support Files/Pods-MSDebugDemo/Pods-MSDebugDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EC94FBFBE41622F425B01128 /* Pods-MSDebugDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSDebugDemo.release.xcconfig"; path = "Target Support Files/Pods-MSDebugDemo/Pods-MSDebugDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05422A208EEA6B8151DD433B /* libPods-MSDebugDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +78,8 @@
 			children = (
 				04ED1BC824AB51B80068284D /* MSDebugDemo */,
 				04ED1BC724AB51B80068284D /* Products */,
+				E928E934286C8F6A790C1D33 /* Pods */,
+				401A212D178968306A83CD04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +94,77 @@
 		04ED1BC824AB51B80068284D /* MSDebugDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04ED1BE224AB55E60068284D /* MSDebug */,
 				04ED1BC924AB51B80068284D /* AppDelegate.h */,
 				04ED1BCA24AB51B80068284D /* AppDelegate.m */,
 				04ED1BCF24AB51B80068284D /* ViewController.h */,
 				04ED1BD024AB51B80068284D /* ViewController.m */,
+				04F576A424B6FC1A00CCF98A /* TestUserModel.h */,
+				04F576A524B6FC1A00CCF98A /* TestUserModel.m */,
+				04ED1BD724AB51BA0068284D /* LaunchScreen.storyboard */,
 				04ED1BD224AB51B80068284D /* Main.storyboard */,
 				04ED1BD524AB51BA0068284D /* Assets.xcassets */,
-				04ED1BD724AB51BA0068284D /* LaunchScreen.storyboard */,
 				04ED1BDA24AB51BA0068284D /* Info.plist */,
 				04ED1BDB24AB51BA0068284D /* main.m */,
 			);
 			path = MSDebugDemo;
+			sourceTree = "<group>";
+		};
+		04ED1BE224AB55E60068284D /* MSDebug */ = {
+			isa = PBXGroup;
+			children = (
+				04ED1BF324AF48290068284D /* MSDebug.bundle */,
+				04ED1C0824B31FE60068284D /* View */,
+				04ED1C0724B31FD40068284D /* Controller */,
+				04ED1C0524B31F950068284D /* MSDebugManager.h */,
+				04ED1C0424B31F950068284D /* MSDebugManager.m */,
+				04ED1BE324AB57460068284D /* MSDebugHook.h */,
+				04ED1BE424AB57460068284D /* MSDebugHook.c */,
+			);
+			path = MSDebug;
+			sourceTree = SOURCE_ROOT;
+		};
+		04ED1C0724B31FD40068284D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04ED1BE624AC66F40068284D /* MSDebugLogViewController.h */,
+				04ED1BE724AC66F40068284D /* MSDebugLogViewController.m */,
+				04ED1BED24AF3C2C0068284D /* MSDebugSandboxViewController.h */,
+				04ED1BEE24AF3C2C0068284D /* MSDebugSandboxViewController.m */,
+				04ED1BF524B2C3A30068284D /* MSDebugAuthorityViewController.h */,
+				04ED1BF624B2C3A30068284D /* MSDebugAuthorityViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04ED1C0824B31FE60068284D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04ED1BFB24B314A70068284D /* MSDebugView.h */,
+				04ED1BFC24B314A70068284D /* MSDebugView.m */,
+				04ED1BFE24B319F00068284D /* MSDebugButton.h */,
+				04ED1BFF24B319F00068284D /* MSDebugButton.m */,
+				04ED1BEA24AF1BB20068284D /* MSDebugDatePickerView.h */,
+				04ED1BEB24AF1BB20068284D /* MSDebugDatePickerView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		401A212D178968306A83CD04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5962FACD02C275B742A5C6 /* libPods-MSDebugDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E928E934286C8F6A790C1D33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9891EBB8F55EE688D22C2561 /* Pods-MSDebugDemo.debug.xcconfig */,
+				EC94FBFBE41622F425B01128 /* Pods-MSDebugDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04ED1BDF24AB51BA0068284D /* Build configuration list for PBXNativeTarget "MSDebugDemo" */;
 			buildPhases = (
+				F6FBE4C428940CFB4EE5C943 /* [CP] Check Pods Manifest.lock */,
 				04ED1BC224AB51B80068284D /* Sources */,
 				04ED1BC324AB51B80068284D /* Frameworks */,
 				04ED1BC424AB51B80068284D /* Resources */,
@@ -129,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ED1BD924AB51BA0068284D /* LaunchScreen.storyboard in Resources */,
+				04ED1BF424AF48290068284D /* MSDebug.bundle in Resources */,
 				04ED1BD624AB51BA0068284D /* Assets.xcassets in Resources */,
 				04ED1BD424AB51B80068284D /* Main.storyboard in Resources */,
 			);
@@ -136,13 +234,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F6FBE4C428940CFB4EE5C943 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSDebugDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04ED1BC224AB51B80068284D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04ED1BD124AB51B80068284D /* ViewController.m in Sources */,
+				04ED1C0624B31F950068284D /* MSDebugManager.m in Sources */,
+				04ED1BE824AC66F50068284D /* MSDebugLogViewController.m in Sources */,
 				04ED1BCB24AB51B80068284D /* AppDelegate.m in Sources */,
+				04ED1BFD24B314A70068284D /* MSDebugView.m in Sources */,
+				04ED1C0024B319F00068284D /* MSDebugButton.m in Sources */,
+				04F576A624B6FC1A00CCF98A /* TestUserModel.m in Sources */,
+				04ED1BE524AB57460068284D /* MSDebugHook.c in Sources */,
+				04ED1BF724B2C3A30068284D /* MSDebugAuthorityViewController.m in Sources */,
+				04ED1BEC24AF1BB20068284D /* MSDebugDatePickerView.m in Sources */,
+				04ED1BEF24AF3C2C0068284D /* MSDebugSandboxViewController.m in Sources */,
 				04ED1BDC24AB51BA0068284D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,34 +413,42 @@
 		};
 		04ED1BE024AB51BA0068284D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9891EBB8F55EE688D22C2561 /* Pods-MSDebugDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MSDebugDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.moses.MSDebugDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.moses.MSDebugDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		04ED1BE124AB51BA0068284D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC94FBFBE41622F425B01128 /* Pods-MSDebugDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MSDebugDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.moses.MSDebugDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.moses.MSDebugDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
